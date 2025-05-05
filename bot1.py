@@ -1,6 +1,6 @@
 import telebot
 import random
-TOKEN = "7895437536:AAFjRqbNmG3B3y6clb3iqknXvp4cPmscn8U"
+TOKEN = open(".env").readline()
 
 
 bot = telebot.TeleBot(TOKEN)
